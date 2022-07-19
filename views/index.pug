@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title The Professional Dance Academy
+        style
+            include ../static/CSS/style.css
+    body
+        nav#navbar.top
+            ul
+                div#logo
+                    img(src="../static/Images/logo.png", alt="Dance Logo")
+                    | MDA
+                li #[a(href='/') Home]
+                li #[a(href='/') About ]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact US]
+        section#introSection
+            div Welcome to the Manan's Dance Academy
+            div Eat Sleep dance Repeat.
+        section#missionSection
+           h3 Our Missions
+           div#cardSection
+                div.card
+                    h2 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/1.png", alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+                div.card
+                    h2 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/2.png", alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+                div.card
+                    h2 Expert Teaching.
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/3.png", alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+        section#sponser
+           h3 Our Sponsers
+        footer#footer
+            our Footer Here.
+
+
+        script
+            include ../static/JS/index.js
+
