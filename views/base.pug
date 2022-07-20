@@ -1,0 +1,22 @@
+//- layout.pug
+//- This is layout formed for inheriting  the base template and it uses the extends keyword to extend the layout.
+html
+    head
+        title My Site - #{title}
+        block script
+        block style
+
+    body
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="../static/Images/logo.png" alt="Dance Logo")
+                | MDA
+            li #[a(href='/') Home]
+            li #[a(href='/') About ]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class Info]
+            li #[a(href='/contact') Contact US]
+        block content 
+        footer#footer
+            p Copyright &copy; 2022 MananDanceAcademy.com. | All Rights Reserved

@@ -14,7 +14,13 @@ app.set('views', path.join(__dirname, 'views'));
 
 // Express related APIs
 app.get('/', (req,res)=>{
-    res.render('index');
+    res.render('home.pug');
+})
+app.get('/contact', (req,res)=>{
+    res.render('contact.pug');
+})
+app.post('/contact', (req,res)=>{
+    console.log(req.body);
 })
 
 // Port to Listen the request and serve to the client browser.

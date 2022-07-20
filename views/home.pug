@@ -1,0 +1,43 @@
+extends base.pug
+
+block script
+    script(src="../static/JS/index.js")
+block style
+    style
+        include ../static/CSS/style.css
+block content
+
+        section#introSection
+            div Welcome to the Manan's Dance Academy
+            div Eat Sleep dance Repeat.
+        section#missionSection
+            h3 Our Missions
+            div#cardSection
+                div.card
+                    h2 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/1.png" alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+                div.card
+                    h2 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/2.png" alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+                div.card
+                    h2 Expert Teaching.
+                    div.card-box
+                        div.card-img
+                            img(src="../static/Images/3.png" alt="Dance Image")
+                        div.card-content
+                            p This is the Best Dance Academy in the whole universe even the alien can't match this dance steps etc.
+        section#sponser
+            h3 Our Sponsers
+            div#sponsers
+                img(src="../static/Images/logo1.png" alt="Sponser Image" class="spImage")
+                img(src="../static/Images/logo2.png" alt="Sponser Image" class="spImage")
+                img(src="../static/Images/logo3.png" alt="Sponser Image" class="spImage")
+                img(src="../static/Images/logo4.png" alt="Sponser Image" class="spImage")
