@@ -33,4 +33,7 @@ node app.js
 http://localhost/
 ```
 ## Preview Of the Application
+![image](https://user-images.githubusercontent.com/75381077/180284013-573e0576-cebe-4bdb-9517-c2f3c8a21593.png)
+![image](https://user-images.githubusercontent.com/75381077/180284154-b5a8a846-4dcb-4091-b4fa-c06c0a11abc3.png)
+
 
