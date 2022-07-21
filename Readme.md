@@ -2,11 +2,11 @@
 ### This is the Simple Backend Application For the Demonstration for the backend Programming Using the node.js
 
 ## Dependencies Used
-1. **"body-parser": "^1.20.0",**
-2. **"express": "^4.18.1",**
-3. **"fs": "^0.0.1-security",**
-4. **"mongoose": "^6.4.6",**
-5. **"path": "^0.12.7",**
+1. **body-parser: ^1.20.0,**
+2. **express: ^4.18.1,**
+3. **fs: ^0.0.1-security,**
+4. **mongoose: ^6.4.6,**
+5. **path: ^0.12.7,**
 
 ## Steps To Start the Application
 
