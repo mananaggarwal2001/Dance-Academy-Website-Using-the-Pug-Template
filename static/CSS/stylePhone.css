@@ -1,0 +1,44 @@
+@media screen and (max-width: 1353px) {
+
+    #introSection :nth-child(1){
+        font-size: 3.0rem;
+    }
+    #cardSection{
+        flex-direction: column;
+    }
+
+    #cardSection .card{
+        flex-wrap: wrap;
+        width: 80%;
+        box-sizing: border-box;
+        height: 330px;
+    }
+
+    #cardSection .card-img{
+        height: 130px;
+        margin: 12px 0px;
+    }
+
+    #cardSection .card-box{
+        flex-direction: column;
+    }
+
+    #cardSection .card-content{
+        padding: 0px 25px;
+    }
+
+    #sponser{
+
+        margin-top: 51rem;
+    }
+    #sponsers{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #sponsers img {
+        width: 238px;
+    }
+
+    #footer{
+    }
+}
