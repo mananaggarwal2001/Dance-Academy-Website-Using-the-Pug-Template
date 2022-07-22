@@ -14,7 +14,7 @@
 
 2. Write the Command to Clone the application which is :-
 ```
-git clone
+git clone https://github.com/mananaggarwal2001/Dance-Academy-Website-Using-the-Pug-Template.git
 ```
 - This Command Will Clone the application and create the local copy on your system.
 
